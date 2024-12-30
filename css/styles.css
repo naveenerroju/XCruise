@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 4em;
+    width: 100%;
+    background-color: #000033;
+    display: flex; /* Use flexbox for better alignment */
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    padding: 0 1em; /* Add padding for better spacing */
+}
+
+.logo {
+    height: 100%; /* Ensure the logo div takes the full height of the navbar */
+    display: flex; /* Use flexbox to align the image */
+    align-items: center; /* Center the image vertically */
+}
+
+.logo img {
+    max-height: 100%; /* Ensure the image does not exceed the navbar height */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.nav-list {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Display list items in a row */
+    gap: 1em; /* Add space between list items */
+    margin: 0; /* Reset default margin */
+    padding: 0 2em;
+}
+
+.nav-list li {
+    color: white; /* Set text color to white */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.hero{
+    width: 100%;
+    color: white;
+    background-image: url(https://github.com/Mohak-Trivedi/xcruise-assets/blob/master/hero-cruise.png?raw=true);
+    text-align: center;
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.landing-title{
+    display: block;
+    width: 100%; /* Ensures the title takes the full width */
+    margin: 0; /* Resets default margin */
+}
+.landing{
+    padding: 10em 0;
+}
+
+.book-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    background-color: rgb(255, 142, 66); /* Changed background color to orange */
+}
+
+a {
+    color: inherit; /* Inherits the color from the parent element */
+    text-decoration: none; /* Removes the underline */
+}
+
+.discover *{
+    margin: 0%;
+}
+.discover h2 {
+    margin: 0%;
+}
+
+.discover {
+    width: 100%;
+    padding-left: 2em; /* Add padding for better spacing */
+    height: 6em;
+    margin-left: 2em;
+    padding-left: 1em;
+    border-left: 2px solid red;
+
+}
+
+.heading {
+    font-size: 2em;
+    margin-bottom: 1em; /* Add space below the heading */
+}
+
+.popular {
+    padding: 1em; /* Add padding for better spacing */
+}
+
+
+.popular {
+    display: flex;
+    gap: 1em; /* Add space between popular */
+}
+
+.pill {
+    display: flex;
+    width: 10em;
+    padding: 0.5em; /* Add padding for better spacing */
+    background-color: #f0f0f0; /* Light background color */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 2px 2px #bbbbbb;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.pill:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+}
+
+.pill img {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%; /* Make the image round */
+    border: 2px solid brown; /* Add border for visual reference */
+    margin-right: 0.5em; /* Add space to the right of the image */
+}
+
+.pill span {
+    font-size: 1em;
+    text-align: left; /* Align text to the left */
+}
+
+.banner *{
+    margin: 0%;
+}
+
+.banner {
+    position: relative; /* Set position to relative to use absolute positioning for text */
+    height: 15em;
+    background-image: url(https://github.com/Mohak-Trivedi/xcruise-assets/blob/master/caribbean-cruise.png?raw=true);
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white; /* Set text color to white */
+    margin: 1em;
+}
+
+.banner h2 {
+    position: absolute; /* Position the text absolutely within the banner */
+    bottom: 1.5em; /* Position the text 1em from the bottom */
+    left: 1em; /* Position the text 1em from the left */
+    margin: 0; /* Remove default margin */
+}
+.banner p {
+    position: absolute; /* Position the text absolutely within the banner */
+    bottom: 1em; /* Position the text 1em from the bottom */
+    left: 1em; /* Position the text 1em from the left */
+    margin: 0; /* Remove default margin */
+}
+
+.grid-container {
+    display: grid;
+    gap: 1em; /* Add space between grid items */
+    margin: 1em;
+}
+
+.card {
+    background-color: #f0f0f0; /* Light background color */
+    padding: 1em; /* Add padding for better spacing */
+    height: 10em;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    position: relative;
+    background-size: cover; /* Ensure the image covers the entire section */
+}
+
+.card h3{
+    position: absolute; /* Position the text absolutely within the banner */
+    bottom: 2em; /* Position the text 1em from the bottom */
+    left: 1em; /* Position the text 1em from the left */
+    margin: 0; /* Remove default margin */
+    color: white;
+}
+
+.card p {
+    position: absolute; /* Position the text absolutely within the banner */
+    bottom: 1em; /* Position the text 1em from the bottom */
+    left: 1em; /* Position the text 1em from the left */
+    margin: 0; /* Remove default margin */
+    color: white;
+}
+
+.card:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+}
+
+#mediterranean {
+    background-image: url(https://github.com/Mohak-Trivedi/xcruise-assets/blob/master/mediterranean-cruise.png?raw=true);
+}
+#dubai{
+    background-image: url(https://github.com/Mohak-Trivedi/xcruise-assets/blob/master/dubai-cruise.png?raw=true);
+}
+#norhtern-europe{
+    background-image: url( https://github.com/Mohak-Trivedi/xcruise-assets/blob/master/northern-europe-cruise.png?raw=true);
+}
+#red-sea{
+    background-image: url( https://github.com/Mohak-Trivedi/xcruise-assets/blob/master/redsea-cruise.png?raw=true);
+}
+#bermuda{
+    background-image: url(https://github.com/Mohak-Trivedi/xcruise-assets/blob/master/bermuda-beach-cruise.png?raw=true);
+}
+#south-africa{
+    background-image: url(https://github.com/Mohak-Trivedi/xcruise-assets/blob/master/south-africa-cruise.png?raw=true);
+}
+#south-america{
+    background-image: url(https://github.com/Mohak-Trivedi/xcruise-assets/blob/master/south-america-cruise.png?raw=true);
+}
+#asia{
+    background-image: url(https://github.com/Mohak-Trivedi/xcruise-assets/blob/master/asia-cruise.png?raw=true);
+}
+
+#contact{
+    display: block;
+    text-align: center;
+}
+
+.contact-grid{
+    display: grid;
+    gap: 1em; /* Add space between grid items */
+    margin: 0 2em;
+}
+
+.contact_info{
+    padding: 1em; /* Add padding for better spacing */
+    position: relative;
+    text-align: center;
+}
+.contact_info h4{
+    margin: 2%;
+}
+.contact_info p{
+    margin: 0%;
+}
+
+footer{
+    background-color: #000033;
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(4, 1fr); /* Ensure 4 columns on desktop */
+    padding: 2em;
+}
+.footer-section h3{
+    color: orange;
+}
+.footer-section ul{
+    padding: 0%;
+}
+.footer-section ul li{
+    list-style: none;
+    text-align: left;
+}
+
+.social-icons img{
+    width: 2em;
+    height: 2em;
+}
+
+/* Media query for tablet and mobile view */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Adjust height to fit content */
+        padding: 1em; /* Add padding for better spacing */
+    }
+
+    .logo {
+        margin-bottom: 1em; /* Add space below the logo */
+    }
+
+    .nav-list {
+        flex-direction: row; /* Stack list items horisantally */
+        gap: 0.5em; /* Adjust gap between list items */
+        align-items: center; /*align list in the center*/
+    }
+    .popular {
+        flex-direction: column; /* Stack popular vertically */
+        align-items: center; /* Center popular */
+    }
+
+    .pill {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+    .contact-grid{
+        grid-template-columns: repeat(1, 1fr); /* Create 2 equal columns */
+    }
+    .footer{
+        grid-template-columns: repeat(1, 1fr); /* 4 columns */
+    }
+    
+}
+
+/* Media query for desktop view */
+@media (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    }
+    .contact-grid{
+        grid-template-columns: repeat(2, 1fr); /* Create 2 equal columns */
+    }
+    .footer{
+        grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    }
+}
+
+/* Media query for tablet view */
+@media (min-width: 480px) and (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+    .contact-grid{
+        grid-template-columns: repeat(1, 1fr); /* Create 2 equal columns */
+    }
+    .footer{
+        grid-template-columns: repeat(1, 1fr); /* 4 columns */
+    }
+}
+
+/* Media query for mobile view */
+@media (max-width: 479px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* 1 column */
+    }
+    .contact-grid{
+        grid-template-columns: repeat(1, 1fr); /* Create 2 equal columns */
+    }
+    .footer{
+        grid-template-columns: repeat(1, 1fr); /* 4 columns */
+    }
+}
